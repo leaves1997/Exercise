@@ -16,7 +16,7 @@ def getHTMLText(url, params):
         'User-Agent':
         'Mozilla/5.0 (Windows NT 6.3; Win64; x64; rv:67.0) Gecko/20100101 Firefox/67.0',
     }
-    cookies = "timeOffset_o=585.5; UM_distinctid=16bb81d391d449-0c189ac9bf21568-14397440-100200-16bb81d39204c9; token=Mzc4Mjc4NzF8NThhZWExODQyNTMzODhiZGMyNzVjOTQ4NmIzY2NjN2N8fHx8MjU5MjAwMHwxfHx85qyi6L%2BO5oKo77yM5pmL5rGf55So5oi3fDB8bW9iaWxl; testcookie=yes; JJEVER=%7B%22ispayuser%22%3A%2237827871-1%22%2C%22foreverreader%22%3A%2237827871%22%2C%22sms_total%22%3A1%7D; JJSESS=%7B%22nicknameAndsign%22%3A%22undefined%7E%29%2524%22%2C%22clicktype%22%3A%22%22%7D; CNZZDATA30075907=cnzz_eid%3D1770875631-1561097691-http%253A%252F%252Fwww.jjwxc.net%252F%26ntime%3D1562496720; Hm_lvt_bc3b748c21fe5cf393d26c12b2c38d99=1562214146,1562215697,1562400517,1562501154; Hm_lpvt_bc3b748c21fe5cf393d26c12b2c38d99=1562501832"
+    cookies = ""
     cookies1 = dict(map(lambda x: x.split('='), cookies.split(';')))
     try:
         r = requests.get(
