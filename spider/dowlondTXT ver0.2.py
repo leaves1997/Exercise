@@ -16,7 +16,7 @@ def getHTMLText(url, params):
         'User-Agent':
         'Mozilla/5.0 (Windows NT 6.3; Win64; x64; rv:67.0) Gecko/20100101 Firefox/67.0',
     }
-    cookies = "kfsakdjfaslfjkaf"
+    cookies = ""
     cookies1 = dict(map(lambda x: x.split('='), cookies.split(';')))
     try:
         r = requests.get(
