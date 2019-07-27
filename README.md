@@ -15,3 +15,8 @@
 #### dowlondTXT ver0.2.py
 爬晋江的小说，用cookie登录，只能爬已经购买了的小说  
 目前晋江好像在升级，希望升级完还能用
+
+###Java study diary
+速成Java？冲鸭
+1.1_Hello.java
+从写hello world开始迈出第一步
